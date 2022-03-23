@@ -36,6 +36,11 @@ body {
     color: #f9faf8;
 }
 
+.header-links a:hover{
+    color: #3882f6;
+    font-weight: 500;
+}
+
 .main-title {
     display         : flex;
     justify-content : space-between;
