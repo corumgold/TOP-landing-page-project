@@ -40,7 +40,7 @@ body {
     align-items     : center;
     flex            : 1;
     background-color: #1f2937;
-    padding         : 50px 10px;
+    padding         : 75px 10px;
     gap: 20px;
 }
 
@@ -78,4 +78,37 @@ body {
 
 .title-image-placeholder p{
     color: #f9faf8;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+}
+
+.images{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-with-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square-image{
+    width: 150px;
+    height: 150px;
+    border: 3px #3882f6 solid;
+    border-radius: 10px;
+}
+
+.image-with-text p{
+    text-align: center;
+    width: 160px;
+    font-weight: 200;
+    font-size: 18px;
 }
