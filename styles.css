@@ -83,7 +83,11 @@ body {
 .content{
     display: flex;
     flex-direction: column;
-    padding-top: 75px;
+}
+
+.content h2{
+    text-align: center;
+    padding: 10px 0;
 }
 
 .images{
