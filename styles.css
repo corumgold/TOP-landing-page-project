@@ -28,10 +28,12 @@ body {
     font-size : 100;
 }
 
-.header-links li {
+.header-links a {
     font-weight: 300;
     font-size  : 18px;
     margin-left: 10px;
+    text-decoration: none;
+    color: #f9faf8;
 }
 
 .main-title {
