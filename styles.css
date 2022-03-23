@@ -7,7 +7,7 @@ body {
     flex-direction : column;
     justify-content: space-between;
     margin         : 0;
-    color: transparent;
+    color          : transparent;
 }
 
 .header {
@@ -30,16 +30,16 @@ body {
 }
 
 .header-links a {
-    font-weight: 300;
-    font-size  : 18px;
-    margin-left: 10px;
+    font-weight    : 300;
+    font-size      : 18px;
+    margin-left    : 10px;
     text-decoration: none;
-    color: #f9faf8;
-    transition: 0.3s;
+    color          : #f9faf8;
+    transition     : 0.3s;
 }
 
-.header-links a:hover{
-    color: #3882f6;
+.header-links a:hover {
+    color     : #3882f6;
     transition: 0.3s;
 }
 
@@ -50,7 +50,7 @@ body {
     flex            : 1;
     background-color: #1f2937;
     padding         : 75px 10px;
-    gap: 20px;
+    gap             : 20px;
 }
 
 .main-title-text h1 {
@@ -68,12 +68,12 @@ body {
 }
 
 .main-title-text button {
-    padding: 5px 25px;
-    border-radius: 7px;
+    padding         : 5px 25px;
+    border-radius   : 7px;
     background-color: #3882f6;
-    border: none;
-    color: #f9faf8;
-    margin-top: 5px;
+    border          : none;
+    color           : #f9faf8;
+    margin-top      : 5px;
 }
 
 .title-image-placeholder {
@@ -85,71 +85,122 @@ body {
     background-color: grey;
 }
 
-.title-image-placeholder p{
+.title-image-placeholder p {
     color: #f9faf8;
 }
 
-.content{
-    display: flex;
+.content {
+    display       : flex;
     flex-direction: column;
-    align-items: center;
-    color: #1f2937;
+    align-items   : center;
+    color         : #1f2937;
 }
 
-.content h2{
+.content h2 {
     text-align: center;
-    padding: 10px 0;
+    padding   : 10px 0;
 }
 
-.images{
-    display: flex;
-    gap: 20px;
+.images {
+    display        : flex;
+    gap            : 20px;
     justify-content: space-around;
-    align-items: center;
-    padding-bottom: 75px;
+    align-items    : center;
+    padding-bottom : 75px;
 }
 
-.image-with-text{
-    display: flex;
+.image-with-text {
+    display       : flex;
     flex-direction: column;
-    align-items: center;
+    align-items   : center;
 }
 
-.square-image{
-    width: 150px;
-    height: 150px;
-    border: 3px #3882f6 solid;
+.square-image {
+    width        : 150px;
+    height       : 150px;
+    border       : 3px #3882f6 solid;
     border-radius: 10px;
 }
 
-.image-with-text p{
-    text-align: center;
-    width: 160px;
+.image-with-text p {
+    text-align : center;
+    width      : 160px;
     font-weight: 300;
-    font-size: 18px;
+    font-size  : 18px;
 }
 
-.quote-block{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.quote-block {
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
     background-color: #e2e7eb;
-    padding: 50px 75px;
+    padding         : 50px 75px;
 }
 
-.quote{
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 200;
+.quote {
+    font-size    : 36px;
+    font-style   : italic;
+    font-weight  : 200;
     margin-bottom: 0;
-    padding: 0 120px;
+    padding      : 0 120px;
 }
 
-.author{
+.author {
     margin-left: auto;
-    padding: 0 140px;
-    margin-top: 0;
+    padding    : 0 140px;
+    margin-top : 0;
     font-weight: 500;
-    font-size: 18px;
+    font-size  : 18px;
+}
+
+.call-to-action {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+
+}
+
+.call-banner {
+    display         : flex;
+    background-color: #3882f6;
+    margin          : 75px 0;
+    border-radius   : 10px;
+    padding         : 40px 70px;
+
+    gap            : 75px;
+    justify-content: center;
+    align-items    : center;
+    flex: 1 0 auto;
+
+}
+
+.call-text {
+    display       : flex;
+    flex-direction: column;
+}
+
+.call-title,
+.call-subtext {
+    margin: 0;
+    color : #f9faf8;
+
+}
+
+.call-title {
+    font-weight: 600;
+    font-size  : 24px;
+}
+
+.call-subtext {
+    font-size  : 18px;
+    font-weight: 200;
+}
+
+.call-button {
+    border          : 2px #f9faf8 solid;
+    background-color: #3882f6;
+    border-radius   : 10px;
+    padding: 5px 25px;
+    color: #f9faf8;
 }
